@@ -19,6 +19,7 @@
       <a>Quer criar uma conta?<a href="<?= url("registro"); ?>">Registrar</a>
 </div>
 </div>
+
 <script type="text/javascript" async>
     var trueOrFalse = false;
     

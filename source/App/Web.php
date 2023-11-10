@@ -60,6 +60,10 @@ class Web
         echo $this->view->render("user-auth",[]);
     }
   
+    public function apiFaq (array $data)
+    {
+        echo $this->view->render("api-faqs",[]);
+    }
     
     public function faq(){
         echo $this->view->render("faq");
@@ -84,4 +88,11 @@ class Web
             "books" => $books->selectAll(),
         ]);
     }
+
+    public function apiLogin (): void
+    {
+        echo $this->view->render("api-login",[]);
+    }
+
+
 }

@@ -32,7 +32,6 @@
     form.addEventListener("submit", async (e) => {
         e.preventDefault();
 
-        // Validar se todos os campos estão preenchidos
         const inputs = form.querySelectorAll('input');
         let allFieldsFilled = true;
         inputs.forEach((input) => {
@@ -53,4 +52,6 @@
         } else {
             success.innerHTML = 'Por favor, preencha todos os campos do formulário';
         }
-    });
+    }); 
+</script>
+

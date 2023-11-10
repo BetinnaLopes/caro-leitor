@@ -24,6 +24,8 @@ $route->get("/perfil","Web:perfil");
 $route->get("/resenhas","Web:review");
 $route->get("/faq","Web:faq");
 $route->get("/livros/{categoryName}","Web:books");
+$route->get("/api-faq", "Web:apiFaq");
+$route->get("/api-login","Web:apiLogin");
 
 //$route->get("/categorias","Web:categories");
 

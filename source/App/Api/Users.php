@@ -40,7 +40,6 @@ class Users extends Api
             $this->back($response,201);
         }
     }
-
     public function login (array $data) : void
     {
 
@@ -57,6 +56,7 @@ class Users extends Api
         }
 
     }
+
 
     public function listAdresses (array $data): void
     {
